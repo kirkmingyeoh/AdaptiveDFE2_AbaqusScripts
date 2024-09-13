@@ -81,17 +81,17 @@ RVE_Mat = ['HDPE']
 RVE_Yield = [29.4] # If assume elastic, put 'NA'
 
 # Python script modules
-RVEAnalysis = "FE2_AdaptiveV2_RVEAnalysisV2_Solid_2D.py" # See below
+RVEAnalysis = "DFE2_Adaptive_RVEAnalysis_Solid_Solid_2D.py" # See below
 """
 Read and process RVE data
 Setting up the .inp files for unit strain analysis
 Read the .odb files and extract the corresponding data 
 """
-MacroDataExtract = "FE2_AdaptiveV2_MacroDataExtract_Solid_2D.py" # Read and process macroscale part data, then create the new .inp file data
-InpFileGen = "FE2_AdaptiveV2_InpFileGen_Solid_2D.py" # Generates the next .inp file based on inp array (not sure if need further refinement)
-OdbDataCheck = "FE2_AdaptiveV2_OdbDataCheckV2_Solid_2D.py" # Checks the running ODB to see if nonlinearity criterion is met
-AdaptPreLoad = "FE2_AdaptiveV2_AdaptPreLoadV4_Solid_2D.py" # Writes the new .inp file after adaptivity to solve for the pre-load state with RVE 
-AdaptMainLoad = "FE2_AdaptiveV2_AdaptMainLoadV2_Solid_2D.py" # Writes the new .inp file after adaptivity to continue solving
+MacroDataExtract = "DFE2_Adaptive_MacroDataExtract_Solid_Solid_2D.py" # Read and process macroscale part data, then create the new .inp file data
+InpFileGen = "DFE2_Adaptive_InpFileGen_Solid_Solid_2D.py" # Generates the next .inp file based on inp array (not sure if need further refinement)
+OdbDataCheck = "DFE2_Adaptive_OdbDataCheck_Solid_Solid_2D.py" # Checks the running ODB to see if nonlinearity criterion is met
+AdaptPreLoad = "DFE2_Adaptive_AdaptPreLoad_Solid_Solid_2D.py" # Writes the new .inp file after adaptivity to solve for the pre-load state with RVE 
+AdaptMainLoad = "DFE2_Adaptive_AdaptMainLoad_Solid_Solid_2D.py" # Writes the new .inp file after adaptivity to continue solving
 
 '''
 Beginning of adaptive code, no further user input required
