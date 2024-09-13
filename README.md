@@ -1,6 +1,6 @@
 # AdaptiveDFE2_AbaqusScripts
 
-Adaptive Direct FE2 is a newly proposed adaptive multiscale modelling method which seeks to reduce the cost of multiscale computational homogenisation. It does so by introducing RVEs only in regions of nonlinearity while homogenised macroscale elastic properties are used in the remaining regions. Through such an approach, the framework is able to reduce the amount of computations required to perform a multiscale analysis significantly. Moreover, Python scripts are used to drive the analysis automatically. No further user effort is needed once the inputs are provided, simplifying the user task significantly. Further information on the Adaptive Direct FE2 method is detailed in the paper below. 
+Adaptive Direct FE2 is a newly proposed adaptive multiscale modelling method which seeks to reduce the cost of multiscale computational homogenisation. It does so by introducing RVEs only in regions of nonlinearity while homogenised macroscale elastic properties are used in the remaining regions. Through such an approach, the framework is able to reduce the computational costs required to perform a multiscale analysis significantly. Moreover, Python scripts are used to drive the analysis automatically. No further user effort is needed once the inputs are provided, simplifying the user task significantly. Further information on the Adaptive Direct FE2 method is detailed in the paper below. 
 
 Adaptive multiscale modelling with Direct FE2 
 DOI: 
