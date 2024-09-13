@@ -67,12 +67,12 @@ NLGeom = 'YES'
 # Macroscale parameters
 MacroInpName = 'Ex6_Macro_NLGeom_BC1'
 MacroPart = 'Macro'
-Macro_Set = ['Load','Fixed'] #'Bottom','Contact'
+Macro_Set = ['Load','Fixed'] 
 Macro_Surface = []
-Macro_Contact_Set = [] #'Contact'
+Macro_Contact_Set = [] 
 
 # Microscale parameters
-RVEInpName = 'Ex2_Micro_Ref' #'Ex2_Micro2_Ref_Mat2'
+RVEInpName = 'Ex2_Micro_Ref' 
 RVEPart = 'RVE'
 RVE_Mat_Set = ['All'] # For assigning RVE materials
 RVE_Set = []
