@@ -70,7 +70,6 @@ MacroPart = 'Macro'
 Macro_Set = ['Load','Fixed'] #'Bottom','Contact'
 Macro_Surface = []
 Macro_Contact_Set = [] #'Contact'
-#Macro_Load = ['BC-1','BC-2','BC-3'] 
 
 # Microscale parameters
 RVEInpName = 'Ex2_Micro_Ref' #'Ex2_Micro2_Ref_Mat2'
