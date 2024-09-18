@@ -5,9 +5,9 @@ Adaptive Direct FE2 is a newly proposed adaptive multiscale modelling method whi
 Adaptive multiscale modelling with Direct FE2 
 DOI: 
 
-This repository contains the following files. 
+This repository contains the following files: 
 
-(1) Python scripts - There are the Python scripts used to run the Adaptive Direct FE2 analysis, which are further detailed below. 
+(1) Python scripts - These are the Python scripts used to run the Adaptive Direct FE2 analysis, which are further detailed below. 
 
 (2) Instructions.docx - Instructions on how to prepare the user-provided input files as well as the central control script 1) **DFE2_Adaptive_Main** for running an Adaptive Direct FE2 analysis. 
 
